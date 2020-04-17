@@ -49,5 +49,11 @@ y FLOAT
 );
 INSERT INTO tblPoint(name, x, y)
 VALUES('điểm a', 10.0, 20.2);
+INSERT INTO tblPoint(name, x, y)
+VALUES('point b', 10.0, 20.2);
+INSERT INTO tblPoint(name, x, y)
+VALUES('point c', 1.1, 3.2);
 --kiem tra xem co du lieu chua
 SELECT * FROM tblPoint;
+--chi muon lay 2 truong x, y
+SELECT x, y FROM tblPoint;
